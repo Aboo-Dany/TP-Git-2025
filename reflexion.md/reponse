@@ -1,0 +1,10 @@
+1. Le projet est organisé autour d’une branche principale (main) et d’une ou plusieurs branches de travail .
+Les développements ont été effectués sur des branches séparées puis intégrés par des merge commits, ce qui préserve l’historique des branches.
+
+2. git fetch récupère les références distantes (branches, commits) sans modifier l’état local.
+
+git pull équivaut à git fetch suivi d’un merge (ou rebase) automatique dans la branche courante.
+
+3.git reset déplace le pointeur de branche vers un commit antérieur et peut supprimer des commits de l’historique.
+
+git revert crée un nouveau commit qui annule un commit existant, sans supprimer l’historique.
